@@ -54,8 +54,8 @@ nbdist/
 Thumbs.db
 
 # Sensitive configuration files
-application.yml
-application.properties
+#application.yml
+#application.properties
 *.secrets
 *.env
 
