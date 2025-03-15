@@ -5,7 +5,7 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true  # Enable service discovery in API Gateway
+          enabled: true  # Enable service discovery in API Gateway Must & Should
       routes:
         - id: movie-service
           uri: lb://movieservice
