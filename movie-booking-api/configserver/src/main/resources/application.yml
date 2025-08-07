@@ -12,3 +12,5 @@ spring:
           username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}
           clone-on-start: true  # Ensures latest changes are fetched on startup
+        watch:
+          enabled=true:          # Enable file change detection(8-8-25 added on)

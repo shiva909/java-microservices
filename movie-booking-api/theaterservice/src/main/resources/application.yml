@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: theaterservice  # Must match the filename in Config Server [github filename]
+  cloud:
+    config:
+      uri: http://localhost:8888  # URL of Config Server
+      fail-fast: true  # Service will fail to start if Config Server is unavailable
+  config:
+    import: "optional:configserver:"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

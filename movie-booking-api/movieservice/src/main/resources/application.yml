@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: movieservice  # Must match the filename in Config Server [GitHub file name]
+  config:
+    import: "optional:configserver:"  # Correct way to import configuration from Config Server
+  cloud:
+    config:
+      uri: http://localhost:8888  # URL of Config Server
+      fail-fast: true  # Service will fail to start if Config Server is unavailable
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  # URL of Eureka Server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: #"*"       #Include all endpoints
+          - health
+          - info
+          - env
+          - refresh
+          - metrics
+
+
