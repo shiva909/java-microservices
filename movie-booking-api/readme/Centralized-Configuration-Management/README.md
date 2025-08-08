@@ -1,5 +1,5 @@
 # 📌 Feature: Centralized Configuration Management
-🔗 [Notes:](notes/README.md)
+🔗 [ Notes:](notes/README.md)
 ---
 
 ## 📘 Overview

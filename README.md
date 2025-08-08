@@ -9,8 +9,8 @@ This repository contains a step-by-step lab-based implementation of key microser
 
 | Lab No. | Topic | Description |
 |--------|-------|-------------|
-| [Lab 1](movie-booking-api/readme/Service Registry and Discovery/README.md) | Service Registry & Discovery | Setup Eureka Server, API Gateway, and Microservices registration |
-| [Lab 2](movie-booking-api/readme/Centralized Configuration Management/README.md) | Centralized Configuration | Implement Spring Cloud Config Server and Git-based config management |
+| [Lab 1](movie-booking-api/readme/Service-Registry-and-Discovery/README.md) | Service Registry & Discovery | Setup Eureka Server, API Gateway, and Microservices registration |
+| [Lab 2](movie-booking-api/readme/Centralized-Configuration-Management/README.md) | Centralized Configuration | Implement Spring Cloud Config Server and Git-based config management |
 ---
 
 ## 🔧 Technologies Used
